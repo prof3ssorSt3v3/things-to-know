@@ -1,0 +1,22 @@
+{
+  "name": "things-to-know",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "steve": "mkdir bob && cd bob && touch bob.md && code bob.md",
+    "gitty": "node gitme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prof3ssorSt3v3/things-to-know.git"
+  },
+  "keywords": [],
+  "author": "Steve Griffith <steve@home.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prof3ssorSt3v3/things-to-know/issues"
+  },
+  "homepage": "https://github.com/prof3ssorSt3v3/things-to-know#readme"
+}
