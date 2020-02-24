@@ -20,3 +20,11 @@ exec(`git commit -m "${message}"`, (err, stdout, stdin) => {
   }
   console.log('message applied');
 });
+
+exec('git push origin master', (err, stdout, stdin) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  console.log('done');
+});
